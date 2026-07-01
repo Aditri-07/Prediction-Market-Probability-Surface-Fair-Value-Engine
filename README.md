@@ -148,18 +148,6 @@ fair-value forecasts are reported alongside the trading metrics, since a
 model can be a good forecaster even when the filtered strategy is roughly
 breakeven, and vice versa.
 
-## Resume bullet version
-
-**Prediction Market Probability Surface & Fair-Value Engine**
-- Built a Python pipeline to collect prediction-market prices, order-book
-  snapshots, and event metadata, converting bid/ask quotes into normalized
-  implied-probability curves across event outcomes and maturities.
-- Developed a Bayesian logit-update fair-value model using macro/event
-  features to estimate outcome probabilities and detect mispricings versus
-  market-implied prices, benchmarked against a gradient-boosted regressor.
-- Backtested an edge-filtered trading signal with liquidity filters,
-  evaluating performance via P&L, hit rate, drawdown, Brier score, and log
-  loss, and validated result sensitivity via a threshold/fee sweep.
 
 ## Development notes: problems faced while building this
 

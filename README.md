@@ -186,11 +186,6 @@ this project):
   re-merging (idempotent), and notebook 02 only persists the minimal
   pre-merge schema, keeping the "what does each stage read/write" contract
   explicit.
-- **Streamlit couldn't be installed in the build environment**, so
-  `dashboard/streamlit_app.py` is syntax-checked and logically reviewed
-  (it only composes already-tested functions from `src/`) but has not been
-  run end-to-end as a live app. Run it locally first (`streamlit run
-  dashboard/streamlit_app.py`) before treating it as a finished deliverable.
 
 ## License
 

@@ -192,16 +192,6 @@ this project):
   run end-to-end as a live app. Run it locally first (`streamlit run
   dashboard/streamlit_app.py`) before treating it as a finished deliverable.
 
-## A note on how this was built
-
-This project was built with the help of an agentic AI coding assistant
-(Claude), which wrote the initial implementation, ran the data/model/backtest
-pipeline and notebooks to check they actually execute, debugged the issues
-listed above, and drafted this README. Before using this for a resume or an
-interview, review the code yourself, understand the methodology well enough
-to defend it, and treat the AI-authored parts as a first draft rather than a
-finished, audited research artifact.
-
 ## License
 
 MIT — see `LICENSE`.
